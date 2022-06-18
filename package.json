@@ -43,6 +43,7 @@
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
+    "watch": "esno watch src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
